@@ -15,7 +15,7 @@ jobs:
           NAME: time
           LABEL: 'Binder'
           STATUS: 'Building'
-          COLOR: 00AAAA
+          COLOR: '00AAAA'
           BRANCH: 'main'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: cache binder build on mybinder.org
@@ -29,6 +29,6 @@ jobs:
           NAME: time
           LABEL: 'Binder'
           STATUS: 'Built'
-          COLOR: 00AAAA
+          COLOR: '005555'
           BRANCH: 'main'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
