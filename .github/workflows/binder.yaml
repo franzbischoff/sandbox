@@ -22,7 +22,7 @@ jobs:
           name: Test XYZ
           conclusion: ${{ job.status }}
           output: |
-            {"summary":${{ steps.cancel_prev.outputs.summary }}}
+            {"summary":"this was awesome"}
       - name: Start Badge
         uses: RubbaBoy/BYOB@v1.1.0
         with:
