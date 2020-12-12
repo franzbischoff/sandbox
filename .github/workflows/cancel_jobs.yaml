@@ -13,4 +13,3 @@ jobs:
           cancelMode: duplicates
           cancelFutureDuplicates: true
           token: ${{ secrets.GITHUB_TOKEN }}
-          workflowFileName: binder.yaml
