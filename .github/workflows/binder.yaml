@@ -18,6 +18,11 @@ jobs:
           COLOR: '00AAAA'
           BRANCH: 'main'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: cache binder build on mybinder.org
+        uses: jupyterhub/repo2docker-action@master
+        with:
+          NO_PUSH: true
+          MYBINDERORG_TAG: v1 # This builds the container on mybinder.org with the branch that was pushed on.
       - name: End Badge
         uses: RubbaBoy/BYOB@v1.1.0
         with:
