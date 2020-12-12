@@ -13,4 +13,4 @@ jobs:
           cancelMode: allDuplicatedNamedJobs
           cancelFutureDuplicates: true
           token: ${{ secrets.GITHUB_TOKEN }}
-          jobNameRegexps: '["^.*$"]'
+          jobNameRegexps: '["^.*der$"]'
