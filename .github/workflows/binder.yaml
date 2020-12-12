@@ -19,7 +19,7 @@ jobs:
         if: always()
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          name: Test XYZ
+          name: Report
           conclusion: ${{ job.status }}
           output: |
             {"summary":"this was awesome"}
