@@ -22,7 +22,7 @@ jobs:
         uses: jupyterhub/repo2docker-action@master
         with:
           NO_PUSH: true
-          MYBINDERORG_TAG: v1 # This builds the container on mybinder.org with the branch that was pushed on.
+          MYBINDERORG_TAG: ${{ github.sha }} # This builds the container on mybinder.org with the branch that was pushed on.
       - name: End Badge
         uses: RubbaBoy/BYOB@v1.1.0
         with:
