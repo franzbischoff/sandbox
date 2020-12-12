@@ -36,10 +36,10 @@ jobs:
     name: "Cancel duplicate workflow runs"
     runs-on: ubuntu-latest
     steps:
-      - name: Sleep for 10 seconds
+      - name: Sleep for 30 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '10s'
+          time: '30s'
       - uses: potiuk/cancel-workflow-runs@master
         name: "Cancel duplicate workflow runs"
         with:
