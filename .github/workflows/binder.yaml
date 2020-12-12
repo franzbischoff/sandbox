@@ -6,6 +6,15 @@ on:
   workflow_dispatch:
 
 jobs:
+  cancel-duplicate-workflow-runs:
+    name: "Cancel duplicate workflow runs"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: potiuk/cancel-workflow-runs@master
+        name: "Cancel duplicate workflow runs"
+        with:
+          cancelMode: allDuplicates
+          token: ${{ secrets.GITHUB_TOKEN }}
   Create-MyBinderOrg-Cache:
     runs-on: ubuntu-latest
     steps:
