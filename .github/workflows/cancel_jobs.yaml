@@ -1,8 +1,6 @@
 name: Cancelling Duplicates
 on:
-  create:
   push:
-  workflow_dispatch:
 
 jobs:
   cancel-duplicate-workflow-runs:
@@ -12,5 +10,7 @@ jobs:
       - uses: potiuk/cancel-workflow-runs@master
         name: "Cancel duplicate workflow runs"
         with:
-          cancelMode: allDuplicates
+          cancelMode: duplicates
+          cancelFutureDuplicates: true
           token: ${{ secrets.GITHUB_TOKEN }}
+          workflowFileName: binder.yaml
