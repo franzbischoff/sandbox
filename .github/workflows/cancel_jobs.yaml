@@ -10,7 +10,7 @@ jobs:
       - uses: potiuk/cancel-workflow-runs@master
         name: "Cancel duplicate workflow runs"
         with:
-          cancelMode: allDuplicateNamedJobs
+          cancelMode: allDuplicatedNamedJobs
           cancelFutureDuplicates: true
           token: ${{ secrets.GITHUB_TOKEN }}
           jobNameRegexps: '["^.*$"]'
