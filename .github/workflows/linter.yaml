@@ -45,6 +45,7 @@ jobs:
       ################################
       - name: Lint Code Base
         uses: github/super-linter@v3
+        continue-on-error: true
         env:
           VALIDATE_ALL_CODEBASE: true
           OUTPUT_FORMAT: tap
