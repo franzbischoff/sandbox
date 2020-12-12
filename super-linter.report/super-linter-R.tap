@@ -1,0 +1,205 @@
+TAP version 13
+1..80
+not ok 1 - NEWS.Rmd
+  ---
+  message:   warning file=/github/workspace/NEWS.Rmd,line=20,col=15  Use file.path() to construct portable file paths.\n
+  ...
+not ok 2 - RcppExports.R
+  ---
+  message:   warning file=/github/workspace/R/RcppExports.R,line=5,col=12  no visible binding for global variable ‘_tsmp_std_rcpp’\n  warning file=/github/workspace/R/RcppExports.R,line=9,col=12  no visible binding for global variable ‘_tsmp_list_to_matrix’\n  warning file=/github/workspace/R/RcppExports.R,line=13,col=12  no visible binding for global variable ‘_tsmp_diff_lag’\n  warning file=/github/workspace/R/RcppExports.R,line=17,col=12  no visible binding for global variable ‘_tsmp_diff2_lag’\n  warning file=/github/workspace/R/RcppExports.R,line=21,col=12  no visible binding for global variable ‘_tsmp_fast_movsd_rcpp’\n  warning file=/github/workspace/R/RcppExports.R,line=25,col=12  no visible binding for global variable ‘_tsmp_fast_avg_sd_rcpp’\n  warning file=/github/workspace/R/RcppExports.R,line=29,col=12  no visible binding for global variable ‘_tsmp_mode_rcpp’\n  warning file=/github/workspace/R/RcppExports.R,line=33,col=12  no visible binding for global variable ‘_tsmp_znorm_rcpp’\n  warning file=/github/workspace/R/RcppExports.R,line=37,col=12  no visible binding for global variable ‘_tsmp_binary_split_rcpp’\n  warning file=/github/workspace/R/RcppExports.R,line=41,col=12  no visible binding for global variable ‘_tsmp_inner_product’\n  warning file=/github/workspace/R/RcppExports.R,line=45,col=12  no visible binding for global variable ‘_tsmp_sum_of_squares’\n  warning file=/github/workspace/R/RcppExports.R,line=49,col=12  no visible binding for global variable ‘_tsmp_mpx_rcpp’\n  warning file=/github/workspace/R/RcppExports.R,line=53,col=12  no visible binding for global variable ‘_tsmp_mpxab_rcpp’\n  warning file=/github/workspace/R/RcppExports.R,line=57,col=12  no visible binding for global variable ‘_tsmp_mpx_rcpp_parallel’\n  warning file=/github/workspace/R/RcppExports.R,line=61,col=12  no visible binding for global variable ‘_tsmp_mpxab_rcpp_parallel’\n  warning file=/github/workspace/R/RcppExports.R,line=65,col=12  no visible binding for global variable ‘_tsmp_movmin’\n  warning file=/github/workspace/R/RcppExports.R,line=69,col=12  no visible binding for global variable ‘_tsmp_movmax’\n  warning file=/github/workspace/R/RcppExports.R,line=71,col=1  Trailing blank lines are superfluous.\n
+  ...
+not ok 3 - analyze.R
+  ---
+  message:   warning file=/github/workspace/R/analyze.R,line=58,col=5  Opening curly braces should never go on their own line and should always be followed by a new line.\n  warning file=/github/workspace/R/analyze.R,line=65,col=13  no visible global function definition for ‘compute’\n  warning file=/github/workspace/R/analyze.R,line=65,col=72  no visible global function definition for ‘%T>%’\n  warning file=/github/workspace/R/analyze.R,line=65,col=77  no visible global function definition for ‘visualize’\n  warning file=/github/workspace/R/analyze.R,line=69,col=13  no visible global function definition for ‘motifs’\n  warning file=/github/workspace/R/analyze.R,line=69,col=36  no visible global function definition for ‘%T>%’\n  warning file=/github/workspace/R/analyze.R,line=69,col=41  no visible global function definition for ‘visualize’\n  warning file=/github/workspace/R/analyze.R,line=72,col=13  no visible global function definition for ‘discords’\n  warning file=/github/workspace/R/analyze.R,line=72,col=38  no visible global function definition for ‘%T>%’\n  warning file=/github/workspace/R/analyze.R,line=72,col=43  no visible global function definition for ‘visualize’\n
+  ...
+not ok 4 - annotations.R
+  ---
+  message:   warning file=/github/workspace/R/annotations.R,line=31,col=11  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/annotations.R,line=35,col=14  no visible global function definition for ‘zero_crossings’\n  warning file=/github/workspace/R/annotations.R,line=38,col=9  no visible global function definition for ‘zero_one_norm’\n  warning file=/github/workspace/R/annotations.R,line=42,col=17  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/annotations.R,line=79,col=11  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/annotations.R,line=84,col=14  no visible global function definition for ‘complexity’\n  warning file=/github/workspace/R/annotations.R,line=87,col=9  no visible global function definition for ‘zero_one_norm’\n  warning file=/github/workspace/R/annotations.R,line=96,col=17  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/annotations.R,line=133,col=11  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/annotations.R,line=150,col=17  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/annotations.R,line=198,col=11  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/annotations.R,line=207,col=16  no visible global function definition for ‘diff2’\n  warning file=/github/workspace/R/annotations.R,line=210,col=9  no visible global function definition for ‘zero_one_norm’\n  warning file=/github/workspace/R/annotations.R,line=224,col=17  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/annotations.R,line=260,col=11  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/annotations.R,line=272,col=9  no visible global function definition for ‘zero_one_norm’\n  warning file=/github/workspace/R/annotations.R,line=277,col=17  no visible global function definition for ‘update_class’\n
+  ...
+not ok 5 - compute.R
+  ---
+  message:   warning file=/github/workspace/R/compute.R,line=68,col=16  no visible global function definition for ‘mpx’\n  warning file=/github/workspace/R/compute.R,line=71,col=16  no visible global function definition for ‘scrimp’\n  warning file=/github/workspace/R/compute.R,line=78,col=16  no visible global function definition for ‘mpx’\n  warning file=/github/workspace/R/compute.R,line=82,col=16  no visible global function definition for ‘scrimp’\n  warning file=/github/workspace/R/compute.R,line=91,col=14  no visible global function definition for ‘pmp_upper_bound’\n  warning file=/github/workspace/R/compute.R,line=104,col=12  no visible global function definition for ‘pmp’\n
+  ...
+not ok 6 - discords.R
+  ---
+  message:   warning file=/github/workspace/R/discords.R,line=17,col=3  no visible global function definition for ‘find_discord’\n
+  ...
+not ok 7 - dist_profile.R
+  ---
+  message:   warning file=/github/workspace/R/dist_profile.R,line=128,col=13  no visible global function definition for ‘mass_pre’\n  warning file=/github/workspace/R/dist_profile.R,line=129,col=13  no visible global function definition for ‘mass_pre’\n  warning file=/github/workspace/R/dist_profile.R,line=131,col=16  no visible global function definition for ‘mass_v3’\n  warning file=/github/workspace/R/dist_profile.R,line=131,col=108  no visible global function definition for ‘std’\n  warning file=/github/workspace/R/dist_profile.R,line=132,col=16  no visible global function definition for ‘mass_v3’\n  warning file=/github/workspace/R/dist_profile.R,line=132,col=108  no visible global function definition for ‘std’\n
+  ...
+not ok 8 - find-chains.R
+  ---
+  message:   warning file=/github/workspace/R/find-chains.R,line=55,col=12  no visible global function definition for ‘remove_class’\n  warning file=/github/workspace/R/find-chains.R,line=74,col=17  no visible global function definition for ‘update_class’\n
+  ...
+not ok 9 - find-discord.R
+  ---
+  message:   warning file=/github/workspace/R/find-discord.R,line=83,col=52  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/find-discord.R,line=93,col=11  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/find-discord.R,line=130,col=17  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/find-discord.R,line=200,col=57  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/find-discord.R,line=210,col=11  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/find-discord.R,line=247,col=17  no visible global function definition for ‘update_class’\n
+  ...
+not ok 10 - find-motifs.R
+  ---
+  message:   warning file=/github/workspace/R/find-motifs.R,line=86,col=52  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/find-motifs.R,line=91,col=13  no visible global function definition for ‘min_mp_idx’\n  warning file=/github/workspace/R/find-motifs.R,line=113,col=11  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/find-motifs.R,line=161,col=12  no visible global function definition for ‘remove_class’\n  warning file=/github/workspace/R/find-motifs.R,line=166,col=17  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/find-motifs.R,line=239,col=23  no visible global function definition for ‘min_mp_idx’\n  warning file=/github/workspace/R/find-motifs.R,line=255,col=19  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/find-motifs.R,line=266,col=54  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/find-motifs.R,line=287,col=15  no visible global function definition for ‘min_mp_idx’\n  warning file=/github/workspace/R/find-motifs.R,line=307,col=17  no visible global function definition for ‘get_bit_save’\n  warning file=/github/workspace/R/find-motifs.R,line=319,col=18  no visible global function definition for ‘remove_class’\n  warning file=/github/workspace/R/find-motifs.R,line=350,col=19  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/find-motifs.R,line=421,col=57  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/find-motifs.R,line=426,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/find-motifs.R,line=445,col=11  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/find-motifs.R,line=489,col=12  no visible global function definition for ‘remove_class’\n  warning file=/github/workspace/R/find-motifs.R,line=494,col=17  no visible global function definition for ‘update_class’\n
+  ...
+not ok 11 - find-snippet.R
+  ---
+  message:   warning file=/github/workspace/R/find-snippet.R,line=88,col=17  no visible global function definition for ‘mpdist’\n
+  ...
+not ok 12 - fluss.R
+  ---
+  message:   warning file=/github/workspace/R/fluss.R,line=81,col=14  no visible global function definition for ‘stompi_update’\n  warning file=/github/workspace/R/fluss.R,line=85,col=14  no visible global function definition for ‘stompi_update’\n  warning file=/github/workspace/R/fluss.R,line=106,col=29  Place a space before left parenthesis, except in a function call.\n  warning file=/github/workspace/R/fluss.R,line=109,col=22  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/fluss.R,line=109,col=22  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/fluss.R,line=121,col=22  no visible global function definition for ‘stompi_update’\n  warning file=/github/workspace/R/fluss.R,line=127,col=22  no visible global function definition for ‘stompi_update’\n  warning file=/github/workspace/R/fluss.R,line=191,col=54  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/fluss.R,line=227,col=19  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/fluss.R,line=266,col=54  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/fluss.R,line=279,col=19  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/fluss.R,line=347,col=52  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/fluss.R,line=353,col=17  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/fluss.R,line=406,col=44  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/fluss.R,line=426,col=13  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/fluss.R,line=429,col=35  Place a space before left parenthesis, except in a function call.\n  warning file=/github/workspace/R/fluss.R,line=429,col=55  Place a space before left parenthesis, except in a function call.\n  warning file=/github/workspace/R/fluss.R,line=450,col=17  no visible global function definition for ‘update_class’\n
+  ...
+not ok 13 - mass-pre-w.R
+  ---
+  message:   warning file=/github/workspace/R/mass-pre-w.R,line=56,col=17  no visible global function definition for ‘fast_avg_sd’\n
+  ...
+not ok 14 - mass-pre.R
+  ---
+  message:   warning file=/github/workspace/R/mass-pre.R,line=43,col=17  no visible global function definition for ‘fast_avg_sd’\n  warning file=/github/workspace/R/mass-pre.R,line=62,col=20  no visible global function definition for ‘fast_avg_sd’\n
+  ...
+ok 15 - mass.R
+ok 16 - mass_v2.R
+not ok 17 - mass_v3.R
+  ---
+  message:   warning file=/github/workspace/R/mass_v3.R,line=62,col=12  Place a space before left parenthesis, except in a function call.\n
+  ...
+not ok 18 - mass_weighted.R
+  ---
+  message:   warning file=/github/workspace/R/mass_weighted.R,line=52,col=57  no visible global function definition for ‘std’\n
+  ...
+not ok 19 - misc.R
+  ---
+  message:   warning file=/github/workspace/R/misc.R,line=31,col=12  no visible global function definition for ‘fast_movsd_rcpp’\n  warning file=/github/workspace/R/misc.R,line=109,col=12  no visible global function definition for ‘fast_avg_sd_rcpp’\n  warning file=/github/workspace/R/misc.R,line=226,col=17  Commented code should be removed.\n  warning file=/github/workspace/R/misc.R,line=245,col=23  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=249,col=12  no visible global function definition for ‘std_rcpp’\n  warning file=/github/workspace/R/misc.R,line=273,col=12  no visible global function definition for ‘mode_rcpp’\n  warning file=/github/workspace/R/misc.R,line=291,col=22  no visible global function definition for ‘znorm_rcpp’\n  warning file=/github/workspace/R/misc.R,line=375,col=12  no visible global function definition for ‘binary_split_rcpp’\n  warning file=/github/workspace/R/misc.R,line=1253,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1267,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1281,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1295,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1309,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1323,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1336,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1349,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1363,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1377,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1390,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/misc.R,line=1410,col=7  Opening curly braces should never go on their own line and should always be followed by a new line.\n
+  ...
+ok 20 - motifs-discords-small.R
+not ok 21 - motifs.R
+  ---
+  message:   warning file=/github/workspace/R/motifs.R,line=17,col=3  no visible global function definition for ‘find_motif’\n
+  ...
+ok 22 - mp-fluss-data.R
+ok 23 - mp-gait-data.R
+ok 24 - mp-meat-data.R
+ok 25 - mp-test-data.R
+ok 26 - mp-toy-data.R
+not ok 27 - mpdist.R
+  ---
+  message:   warning file=/github/workspace/R/mpdist.R,line=81,col=15  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/mpdist.R,line=90,col=26  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/mpdist.R,line=126,col=9  no visible global function definition for ‘mpx’\n  warning file=/github/workspace/R/mpdist.R,line=153,col=11  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/mpdist.R,line=162,col=32  no visible global function definition for ‘movmin’\n  warning file=/github/workspace/R/mpdist.R,line=176,col=31  no visible global function definition for ‘vars’\n
+  ...
+not ok 28 - mpx.R
+  ---
+  message:   warning file=/github/workspace/R/mpx.R,line=48,col=7  Opening curly braces should never go on their own line and should always be followed by a new line.\n  warning file=/github/workspace/R/mpx.R,line=78,col=7  Opening curly braces should never go on their own line and should always be followed by a new line.\n
+  ...
+not ok 29 - mstomp-par.R
+  ---
+  message:   warning file=/github/workspace/R/mstomp-par.R,line=10,col=1  functions should have cyclomatic complexity of less than 50, this has 57.\n  warning file=/github/workspace/R/mstomp-par.R,line=15,col=58  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/mstomp-par.R,line=91,col=16  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/mstomp-par.R,line=107,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/mstomp-par.R,line=107,col=18  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/mstomp-par.R,line=181,col=18  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/mstomp-par.R,line=206,col=26  no visible global function definition for ‘vars’\n
+  ...
+not ok 30 - mstomp.R
+  ---
+  message:   warning file=/github/workspace/R/mstomp.R,line=59,col=1  functions should have cyclomatic complexity of less than 50, this has 51.\n  warning file=/github/workspace/R/mstomp.R,line=64,col=58  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/mstomp.R,line=140,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/mstomp.R,line=140,col=18  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/mstomp.R,line=151,col=16  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/mstomp.R,line=203,col=32  no visible global function definition for ‘vars’\n
+  ...
+not ok 31 - plot.R
+  ---
+  message:   warning file=/github/workspace/R/plot.R,line=616,col=12  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=623,col=14  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=689,col=17  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=698,col=16  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=763,col=13  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=774,col=5  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=860,col=17  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=861,col=17  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=870,col=18  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=879,col=17  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=880,col=17  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=889,col=18  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=994,col=22  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=995,col=22  no visible global function definition for ‘znorm’\n  warning file=/github/workspace/R/plot.R,line=1043,col=10  no visible global function definition for ‘salient_mds’\n  warning file=/github/workspace/R/plot.R,line=1118,col=11  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1120,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1121,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1134,col=6  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1137,col=5  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1160,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1194,col=11  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1196,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1197,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1210,col=6  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1213,col=5  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1232,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1264,col=38  Use TRUE instead of the symbol T.\n  warning file=/github/workspace/R/plot.R,line=1278,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/plot.R,line=1311,col=5  Commented code should be removed.\n
+  ...
+not ok 32 - pmp.R
+  ---
+  message:   warning file=/github/workspace/R/pmp.R,line=99,col=5  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=105,col=33  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=121,col=5  Opening curly braces should never go on their own line and should always be followed by a new line.\n  warning file=/github/workspace/R/pmp.R,line=148,col=13  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=149,col=13  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=151,col=13  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=152,col=13  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=154,col=13  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=172,col=16  no visible global function definition for ‘binary_split’\n  warning file=/github/workspace/R/pmp.R,line=191,col=15  no visible global function definition for ‘mpx’\n  warning file=/github/workspace/R/pmp.R,line=195,col=23  Do not use absolute paths.\n  warning file=/github/workspace/R/pmp.R,line=208,col=7  no visible global function definition for ‘skimp_plot_add_layer’\n  warning file=/github/workspace/R/pmp.R,line=283,col=5  Opening curly braces should never go on their own line and should always be followed by a new line.\n  warning file=/github/workspace/R/pmp.R,line=297,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=299,col=15  no visible global function definition for ‘mpx’\n  warning file=/github/workspace/R/pmp.R,line=308,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=313,col=43  no visible global function definition for ‘corr_ed’\n  warning file=/github/workspace/R/pmp.R,line=327,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/pmp.R,line=329,col=17  no visible global function definition for ‘mpx’\n  warning file=/github/workspace/R/pmp.R,line=340,col=45  no visible global function definition for ‘corr_ed’\n  warning file=/github/workspace/R/pmp.R,line=345,col=11  Commented code should be removed.\n
+  ...
+not ok 33 - print.R
+  ---
+  message:   warning file=/github/workspace/R/print.R,line=42,col=46  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/print.R,line=71,col=46  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/print.R,line=126,col=46  no visible global function definition for ‘vars’\n
+  ...
+not ok 34 - salient.R
+  ---
+  message:   warning file=/github/workspace/R/salient.R,line=44,col=1  functions should have cyclomatic complexity of less than 50, this has 69.\n  warning file=/github/workspace/R/salient.R,line=94,col=48  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/salient.R,line=96,col=56  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/salient.R,line=106,col=48  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/salient.R,line=111,col=15  no visible global function definition for ‘discrete_norm_pre’\n  warning file=/github/workspace/R/salient.R,line=113,col=15  no visible global function definition for ‘discrete_norm_pre’\n  warning file=/github/workspace/R/salient.R,line=159,col=15  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/salient.R,line=159,col=20  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/salient.R,line=173,col=43  no visible global function definition for ‘discrete_norm’\n  warning file=/github/workspace/R/salient.R,line=183,col=47  no visible global function definition for ‘discrete_norm’\n  warning file=/github/workspace/R/salient.R,line=213,col=38  no visible global function definition for ‘get_bitsize’\n  warning file=/github/workspace/R/salient.R,line=240,col=24  no visible global function definition for ‘get_sorted_idx’\n  warning file=/github/workspace/R/salient.R,line=258,col=16  no visible global function definition for ‘discrete_norm’\n  warning file=/github/workspace/R/salient.R,line=267,col=28  no visible global function definition for ‘discrete_norm’\n  warning file=/github/workspace/R/salient.R,line=268,col=50  no visible global function definition for ‘get_bitsize’\n  warning file=/github/workspace/R/salient.R,line=274,col=38  no visible global function definition for ‘get_bitsize’\n  warning file=/github/workspace/R/salient.R,line=327,col=17  no visible global function definition for ‘update_class’\n  warning file=/github/workspace/R/salient.R,line=371,col=50  no visible global function definition for ‘std’\n
+  ...
+not ok 35 - scrimp.R
+  ---
+  message:   warning file=/github/workspace/R/scrimp.R,line=88,col=58  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/scrimp.R,line=136,col=54  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/scrimp.R,line=156,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/scrimp.R,line=156,col=18  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/scrimp.R,line=173,col=9  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/scrimp.R,line=186,col=13  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/scrimp.R,line=297,col=57  no visible global function definition for ‘vars’\n
+  ...
+not ok 36 - sdts-predict.R
+  ---
+  message:   warning file=/github/workspace/R/sdts-predict.R,line=45,col=11  no visible global function definition for ‘dist_profile’\n
+  ...
+not ok 37 - sdts-train.R
+  ---
+  message:   warning file=/github/workspace/R/sdts-train.R,line=48,col=1  functions should have cyclomatic complexity of less than 50, this has 68.\n  warning file=/github/workspace/R/sdts-train.R,line=115,col=13  no visible global function definition for ‘stomp_par’\n  warning file=/github/workspace/R/sdts-train.R,line=117,col=13  no visible global function definition for ‘stomp’\n  warning file=/github/workspace/R/sdts-train.R,line=168,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/sdts-train.R,line=168,col=18  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/sdts-train.R,line=178,col=13  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/sdts-train.R,line=185,col=17  no visible global function definition for ‘golden_section’\n
+  ...
+ok 38 - serialize.R
+not ok 39 - simple.R
+  ---
+  message:   warning file=/github/workspace/R/simple.R,line=127,col=58  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/simple.R,line=141,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/simple.R,line=141,col=18  no visible binding for global variable ‘sounds’\n
+  ...
+not ok 40 - stamp-par.R
+  ---
+  message:   warning file=/github/workspace/R/stamp-par.R,line=47,col=58  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/stamp-par.R,line=128,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/stamp-par.R,line=128,col=18  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/stamp-par.R,line=145,col=12  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stamp-par.R,line=147,col=12  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stamp-par.R,line=169,col=17  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stamp-par.R,line=171,col=17  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stamp-par.R,line=183,col=40  no visible global function definition for ‘vars’\n
+  ...
+not ok 41 - stamp.R
+  ---
+  message:   warning file=/github/workspace/R/stamp.R,line=97,col=58  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/stamp.R,line=155,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/stamp.R,line=155,col=18  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/stamp.R,line=177,col=13  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stamp.R,line=179,col=13  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stamp.R,line=191,col=39  no visible global function definition for ‘vars’\n
+  ...
+not ok 42 - stomp-par.R
+  ---
+  message:   warning file=/github/workspace/R/stomp-par.R,line=46,col=58  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/stomp-par.R,line=80,col=9  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stomp-par.R,line=83,col=10  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stomp-par.R,line=98,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/stomp-par.R,line=98,col=18  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/stomp-par.R,line=179,col=16  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stomp-par.R,line=202,col=34  no visible global function definition for ‘vars’\n
+  ...
+not ok 43 - stomp.R
+  ---
+  message:   warning file=/github/workspace/R/stomp.R,line=86,col=58  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/stomp.R,line=125,col=13  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/stomp.R,line=125,col=18  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/stomp.R,line=131,col=9  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stomp.R,line=134,col=10  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stomp.R,line=182,col=39  no visible global function definition for ‘vars’\n
+  ...
+not ok 44 - stompi.R
+  ---
+  message:   warning file=/github/workspace/R/stompi.R,line=46,col=12  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stompi.R,line=48,col=20  no visible global function definition for ‘fast_avg_sd’\n  warning file=/github/workspace/R/stompi.R,line=58,col=13  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/stompi.R,line=116,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/stompi.R,line=130,col=8  Commented code should be removed.\n
+  ...
+not ok 45 - subset.R
+  ---
+  message:   warning file=/github/workspace/R/subset.R,line=111,col=8  no visible global function definition for ‘fluss_extract’\n  warning file=/github/workspace/R/subset.R,line=127,col=8  no visible global function definition for ‘floss_extract’\n  warning file=/github/workspace/R/subset.R,line=143,col=8  no visible global function definition for ‘fluss_cac’\n  warning file=/github/workspace/R/subset.R,line=311,col=5  Commented code should be removed.\n  warning file=/github/workspace/R/subset.R,line=312,col=5  Commented code should be removed.\n  warning file=/github/workspace/R/subset.R,line=552,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/subset.R,line=555,col=11  Commented code should be removed.\n  warning file=/github/workspace/R/subset.R,line=558,col=13  Commented code should be removed.\n  warning file=/github/workspace/R/subset.R,line=560,col=13  Commented code should be removed.\n  warning file=/github/workspace/R/subset.R,line=600,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/subset.R,line=611,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/subset.R,line=615,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/subset.R,line=621,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/subset.R,line=633,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/subset.R,line=638,col=1  Variable and function name style should be snake_case.\n
+  ...
+ok 46 - tsmp-deprecated.R
+ok 47 - tsmp-package.R
+not ok 48 - tsmp.R
+  ---
+  message:   warning file=/github/workspace/R/tsmp.R,line=231,col=7  no visible global function definition for ‘pmp’\n  warning file=/github/workspace/R/tsmp.R,line=237,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=238,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=239,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=240,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=241,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=242,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=243,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=244,col=7  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=247,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=249,col=9  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=254,col=11  Commented code should be removed.\n  warning file=/github/workspace/R/tsmp.R,line=256,col=11  Commented code should be removed.\n
+  ...
+ok 49 - utils-pipe.R
+not ok 50 - valmod.R
+  ---
+  message:   warning file=/github/workspace/R/valmod.R,line=52,col=1  functions should have cyclomatic complexity of less than 50, this has 91.\n  warning file=/github/workspace/R/valmod.R,line=143,col=24  no visible global function definition for ‘fast_avg_sd’\n  warning file=/github/workspace/R/valmod.R,line=144,col=25  no visible global function definition for ‘fast_avg_sd’\n  warning file=/github/workspace/R/valmod.R,line=157,col=48  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/valmod.R,line=186,col=17  no visible global function definition for ‘beep’\n  warning file=/github/workspace/R/valmod.R,line=186,col=22  no visible binding for global variable ‘sounds’\n  warning file=/github/workspace/R/valmod.R,line=192,col=13  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/valmod.R,line=196,col=14  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/valmod.R,line=204,col=9  local variable ‘left_matrix_profile’ assigned but may not be used\n  warning file=/github/workspace/R/valmod.R,line=204,col=32  local variable ‘right_matrix_profile’ assigned but may not be used\n  warning file=/github/workspace/R/valmod.R,line=205,col=9  local variable ‘left_profile_index’ assigned but may not be used\n  warning file=/github/workspace/R/valmod.R,line=205,col=31  local variable ‘right_profile_index’ assigned but may not be used\n  warning file=/github/workspace/R/valmod.R,line=258,col=43  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/valmod.R,line=259,col=37  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/valmod.R,line=512,col=17  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/valmod.R,line=513,col=18  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/valmod.R,line=528,col=24  no visible global function definition for ‘dist_profile’\n  warning file=/github/workspace/R/valmod.R,line=572,col=49  no visible global function definition for ‘vars’\n  warning file=/github/workspace/R/valmod.R,line=573,col=43  no visible global function definition for ‘vars’\n
+  ...
+ok 51 - visualize.R
+not ok 52 - zzz.R
+  ---
+  message:   warning file=/github/workspace/R/zzz.R,line=6,col=1  Variable and function name style should be snake_case.\n  warning file=/github/workspace/R/zzz.R,line=16,col=1  Variable and function name style should be snake_case.\n
+  ...
+not ok 53 - README.Rmd
+  ---
+  message:   warning file=/github/workspace/README.Rmd,line=14,col=15  Use file.path() to construct portable file paths.\n  warning file=/github/workspace/README.Rmd,line=98,col=61  Commas should always have a space after.\n  warning file=/github/workspace/README.Rmd,line=108,col=3  Commented code should be removed.\n  warning file=/github/workspace/README.Rmd,line=109,col=27  Use file.path() to construct portable file paths.\n
+  ...
+ok 54 - fontconfig-helper.R
+ok 55 - spelling.R
+ok 56 - testthat.R
+ok 57 - test-analyze.R
+ok 58 - test-annotation.R
+ok 59 - test-basics.R
+ok 60 - test-compute.R
+ok 61 - test-discords.R
+ok 62 - test-find-chains.R
+ok 63 - test-find-discord.R
+ok 64 - test-fluss.R
+ok 65 - test-mass-agressive.R
+ok 66 - test-misc.R
+ok 67 - test-motifs.R
+ok 68 - test-mpdist.R
+ok 69 - test-mstomp-search.R
+not ok 70 - test-plot-print.R
+  ---
+  message:   warning file=/github/workspace/tests/testthat/test-plot-print.R,line=62,col=14  Use file.path() to construct portable file paths.\n  warning file=/github/workspace/tests/testthat/test-plot-print.R,line=64,col=14  Use file.path() to construct portable file paths.\n
+  ...
+ok 71 - test-salient.R
+ok 72 - test-sdts.R
+ok 73 - test-serialize.R
+ok 74 - test-simple.R
+ok 75 - test-stamps.R
+ok 76 - test-stomp-search.R
+ok 77 - test-stress-stamps.R
+ok 78 - test-subset.R
+ok 79 - test-valmod.R
+ok 80 - test-visualize.R
